@@ -1,0 +1,22 @@
+.c-tab {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    &__title {
+
+    }
+    &__close {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: $COLOR_CRIMSON;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $COLOR_WHITE;
+        cursor: pointer;
+    }
+}

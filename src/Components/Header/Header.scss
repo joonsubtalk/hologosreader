@@ -1,0 +1,15 @@
+@import '../../config/shared.scss';
+
+.o-header {
+    font-size: 1rem;
+
+    background-color: $COLOR_FROST;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__tabContainer {
+
+    }
+}
