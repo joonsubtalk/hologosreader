@@ -5,6 +5,7 @@ import {
   Link
 } from 'react-router-dom';
 import Header from './Components/Header/Header';
+import Slider from './Components/Slider/Slider';
 import './App.css';
 
 const Home = () => (
@@ -24,6 +25,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <Slider />
           <Header />
           wootzs
           <Route exact path="/" component={Home} />
